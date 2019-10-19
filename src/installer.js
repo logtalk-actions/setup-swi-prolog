@@ -7,6 +7,6 @@ module.exports = {installSWIPL}
  *
  * @param {string} version
  */
-async function installLogtalk(branch,version) {
+async function installSWIPL(branch,version) {
   await exec(path.join(__dirname, 'install-swipl-ubuntu'), [branch,version])
 }
