@@ -8,7 +8,7 @@ See [action.yml](action.yml).
 
 # Example
 
-```
+```yml
 on: push
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
 
 # License
 
-The scripts and documentation in this project are released under the [Apache License 2.0](LICENSE)
+The scripts and documentation in this project are released under the [Apache License 2.0](LICENSE).
 
 # Current Status
 
