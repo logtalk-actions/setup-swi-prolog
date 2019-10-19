@@ -1,4 +1,5 @@
 const {exec} = require('@actions/exec')
+const path = require('path')
 
 module.exports = {installSWIPL}
 
