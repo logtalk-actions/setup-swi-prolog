@@ -19,4 +19,4 @@ else
 	exit 1
 fi
 	
-sudo apt-get install swi-prolog=$version
+sudo apt-get install swi-prolog
