@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -eo pipefail
+
+branch=$1
+version=$2
+
+cd /tmp
+
+sudo apt-get install software-properties-common
+
+if [ "$branch" == "stable" ] ; then
+	sudo apt-add-repository ppa:swi-prolog/stable
+	sudo apt-get update
+elif [ "$branch" == "devel" ] ; then
+	sudo apt-add-repository ppa:swi-prolog/devel
+	sudo apt-get update
+else
+	exit 1
+fi
+	
+sudo apt-get install swi-prolog=$version
