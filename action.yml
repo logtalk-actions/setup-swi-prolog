@@ -1,0 +1,14 @@
+name: Setup SWI-Prolog
+description: Installs the specified SWI-Prolog version
+inputs:
+  swipl-branch:
+    description: SWI-Prolog branch (stable or devel)
+    required: true
+    default: devel
+  swipl-version:
+    description: SWI-Prolog version to install
+    required: true
+    default: latest
+runs:
+  using: 'node12'
+  main: 'src/setup-swipl.js'
