@@ -18,5 +18,9 @@ elif [ "$branch" == "devel" ] ; then
 else
 	exit 1
 fi
-	
-sudo apt-get install swi-prolog
+
+if [ "$version" == "latest" ] ; then
+	sudo apt-get install swi-prolog
+else
+	sudo apt-get install swi-prolog="$version"
+fi
