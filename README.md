@@ -3,6 +3,7 @@
 This actions sets up a SWI-Prolog environment for use in workflows.
 
 ![](https://github.com/logtalk-actions/setup-swi-prolog/workflows/Test/badge.svg)
+![](https://github.com/logtalk-actions/setup-swi-prolog/workflows/Logtalk/badge.svg)
 
 # Usage
 
