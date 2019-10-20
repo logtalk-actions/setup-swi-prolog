@@ -1,0 +1,18 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ubuntu-latest]
+    steps:
+      - name: Install SWI-Prolog
+        uses: logtalk-actions/setup-swi-prolog@master
+        with:
+          swipl-branch: stable
+          swipl-version: latest
+      - name: Run trivial sanity test
+        run: swipl -g true -t halt
