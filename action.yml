@@ -12,3 +12,6 @@ inputs:
 runs:
   using: 'node12'
   main: 'src/setup-swipl.js'
+branding:
+  icon: 'box'
+  color: 'blue'
