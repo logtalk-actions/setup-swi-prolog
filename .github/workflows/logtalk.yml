@@ -3,7 +3,7 @@ name: Logtalk
 on: [push]
 
 jobs:
-  test:
+  logtalk:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:

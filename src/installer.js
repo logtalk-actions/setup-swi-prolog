@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {installSWIPL}
 
 /**
- * Install Logtalk.
+ * Install SWI-Prolog.
  *
  * @param {string} version
  */
