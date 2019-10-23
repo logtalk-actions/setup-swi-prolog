@@ -1,14 +1,14 @@
-# setup-swi-prolog
+# `setup-swi-prolog`
 
 This actions sets up a SWI-Prolog environment for use in workflows.
 
 ![](https://github.com/logtalk-actions/setup-swi-prolog/workflows/Test/badge.svg)
 
-# Usage
+## Usage
 
 See [action.yml](action.yml).
 
-# Example
+## Example
 
 ```yml
 on: push
@@ -32,10 +32,10 @@ jobs:
         run: logtalk_tester -p swi
 ```
 
-# License
+## License
 
 This project is released under the [Apache License 2.0](LICENSE).
 
-# Current Status
+## Current Status
 
 This action is in active development. This action only supports Linux at this time.
