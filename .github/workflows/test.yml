@@ -16,3 +16,9 @@ jobs:
           swipl-version: latest
       - name: Run trivial sanity test
         run: swipl -g true -t halt
+      - name: Install Logtalk
+        uses: logtalk-actions/setup-logtalk@master
+        with:
+          logtalk-version: latest
+      - name: Run Logtalk aliases example tests
+        run: cd ~/logtalk/examples/aliases && logtalk_tester -p swi

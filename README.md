@@ -30,7 +30,7 @@ jobs:
 
 # License
 
-The scripts and documentation in this project are released under the [Apache License 2.0](LICENSE).
+This project is released under the [Apache License 2.0](LICENSE).
 
 # Current Status
 
