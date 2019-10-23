@@ -28,6 +28,8 @@ jobs:
           logtalk-version: latest
       - name: Checkout Logtalk application to be tested
         uses: actions/checkout@v1
+      - name: Run all tests in the application directory
+        run: logtalk_tester -p swi
 ```
 
 # License
