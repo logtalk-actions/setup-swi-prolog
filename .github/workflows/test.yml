@@ -20,5 +20,6 @@ jobs:
         uses: logtalk-actions/setup-logtalk@master
         with:
           logtalk-version: latest
+          logtalk-tool-dependencies: false
       - name: Run Logtalk aliases example tests
         run: cd "$LOGTALKUSER/examples/aliases" && logtalk_tester -p swi
