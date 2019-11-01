@@ -6,7 +6,7 @@ This actions sets up a SWI-Prolog environment for use in workflows.
 
 ## Usage
 
-See [action.yml](action.yml).
+See [action.yml](action.yml) for the action metadata. The optional `swi-prolog-branch` input parameter (`stable` or `devel`; `devel` by default) allows selecting the branch. The required `swi-prolog-version` input parameter specifies the version to be installed (`latest` or version number, e.g. `8.1.15`; default is `latest`).
 
 ## Example
 
