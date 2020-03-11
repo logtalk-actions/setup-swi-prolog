@@ -10,17 +10,17 @@ cd /tmp
 sudo apt-get install software-properties-common
 
 if [ "$branch" == "stable" ] ; then
-	sudo apt-add-repository ppa:swi-prolog/stable
+	sudo apt-add-repository -y ppa:swi-prolog/stable
 	sudo apt-get update
 elif [ "$branch" == "devel" ] ; then
-	sudo apt-add-repository ppa:swi-prolog/devel
+	sudo apt-add-repository -y ppa:swi-prolog/devel
 	sudo apt-get update
 else
 	exit 1
 fi
 
 if [ "$version" == "latest" ] ; then
-	sudo apt-get install swi-prolog
+	sudo apt-get install -y swi-prolog
 else
-	sudo apt-get install swi-prolog="$version"
+	sudo apt-get install -y swi-prolog="$version"
 fi
