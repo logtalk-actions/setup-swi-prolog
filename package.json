@@ -1,5 +1,5 @@
 {
-  "name": "setup-swi-prolog",
+  "name": "setup-ciao-prolog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/logtalk-actions/setup-swi-prolog.git"
+    "url": "git+https://github.com/logtalk-actions/setup-ciao-prolog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/logtalk-actions/setup-swi-prolog/issues"
+    "url": "https://github.com/logtalk-actions/setup-ciao-prolog/issues"
   },
-  "homepage": "https://github.com/logtalk-actions/setup-swi-prolog#readme",
+  "homepage": "https://github.com/logtalk-actions/setup-ciao-prolog#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/exec": "^1.1.0",
-    "@actions/github": "^1.1.0"
+    "@actions/github": "^5.0.0"
   }
 }
