@@ -10,7 +10,7 @@ inputs:
     required: true
     default: latest
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'src/setup-swi-prolog.js'
 branding:
   icon: 'box'
